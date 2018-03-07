@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/sign_recycler_view"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"/>
+
+	<com.scanandsign.ui.DrawView
+		android:id="@+id/sign_draw_view"
+		android:layout_margin="2dp"
+		android:background="@drawable/bg_draw_view"
+		android:layout_width="match_parent"
+		android:layout_height="120dp" />
+
+	<Button
+		android:id="@+id/btn_submit_sign"
+		android:text="提交签名"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+</LinearLayout>

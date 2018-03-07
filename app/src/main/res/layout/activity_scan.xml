@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.mei_husky.library.view.QRCodeScannerView
+		android:id="@+id/scan_scanner_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+	<com.mei_husky.library.view.QRCoverView
+		android:id="@+id/scan_cover_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<TextView
+			android:id="@+id/tv_tip"
+			android:layout_marginBottom="140dp"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="请将二维码置于框内"
+			android:textColor="@color/gainsboro"/>
+
+	</RelativeLayout>
+</FrameLayout>
